@@ -88,14 +88,6 @@ Dashboard kasir dirancang untuk mempercepat proses transaksi, melihat pesanan ak
 
 ---
 
-### 📂 Struktur Folder Screenshot
-
-<CodeBlock language="text" content="screenshots/
-├── dashboard-admin.png
-└── dashboard-kasir.png"/>
-
-> Simpan screenshot aplikasi ke folder `screenshots/` agar tampil otomatis di README GitHub.
-
 
 ---
 
