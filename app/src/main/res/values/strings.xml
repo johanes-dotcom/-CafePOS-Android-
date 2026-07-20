@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">CafePOS Mobile</string>
+    <string name="dashboard">Beranda</string>
+    <string name="history">Riwayat</string>
+    <string name="orders">Pesanan</string>
+    <string name="profile">Profil</string>
+    <string name="settings">Pengaturan</string>
+    <string name="report">Laporan</string>
+    <string name="transaction">Transaksi</string>
+    <string name="new_transaction">Transaksi Baru</string>
+    <string name="search_menu">Cari menu…</string>
+    <string name="all_categories">Semua</string>
+    <string name="coffee">Kopi</string>
+    <string name="drink">Minuman</string>
+    <string name="food">Makanan</string>
+    <string name="snack">Snack</string>
+    <string name="add">Tambah</string>
+    <string name="pay">Bayar</string>
+    <string name="order_detail">Detail Pesanan</string>
+    <string name="total">Total</string>
+    <string name="process_payment">Proses Pembayaran</string>
+    <string name="payment">Pembayaran</string>
+    <string name="transaction_summary">Ringkasan Transaksi</string>
+    <string name="payment_method">Metode Pembayaran</string>
+    <string name="finish_transaction">Selesaikan Transaksi</string>
+    <string name="payment_success">Pembayaran Berhasil</string>
+    <string name="thank_you">Terima kasih atas pesanan Anda!</string>
+    <string name="receipt_title">STRUK PEMBAYARAN</string>
+    <string name="transaction_no">No. Transaksi</string>
+    <string name="date">Tanggal</string>
+    <string name="status">Status</string>
+    <string name="print_receipt">Cetak Struk</string>
+    <string name="connect_printer">Hubungkan Printer</string>
+    <string name="done">Selesai</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="help">Bantuan</string>
+    <string name="language">Bahasa</string>
+    <string name="theme">Tema Aplikasi</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="light_mode">Mode Terang</string>
+    <string name="logout">Keluar Akun</string>
+    <string name="version">Versi</string>
+    <string name="developer">Pengembang</string>
+    <string name="copyright">Hak Cipta</string>
+    <string name="contact">Kontak</string>
+    <string name="help_center">Pusat Bantuan</string>
+    <string name="faq">FAQ</string>
+    <string name="printer_bluetooth">Printer Bluetooth</string>
+    <string name="connect">Hubungkan</string>
+    <string name="disconnect">Putuskan</string>
+    <string name="connected">Terhubung</string>
+    <string name="disconnected">Terputus</string>
+    <string name="connecting">Menghubungkan…</string>
+    <string name="searching_printer">Mencari printer…</string>
+    <string name="no_printer_found">Printer tidak ditemukan</string>
+    <string name="app_description">CafePOS Mobile adalah solusi kasir pintar untuk bisnis kafe dan restoran. Kelola pesanan, pembayaran, dan laporan dalam satu genggaman.</string>
+
+    <!-- Menu Produk Strings -->
+    <string name="product_menu">Menu Produk</string>
+    <string name="add_menu">Tambah Menu</string>
+    <string name="edit_menu">Edit Menu</string>
+    <string name="delete_menu">Hapus Menu</string>
+    <string name="no_menu_title">Belum Ada Produk Tersedia</string>
+    <string name="no_menu_desc">Silakan tambahkan produk terlebih dahulu melalui Menu Produk.</string>
+    <string name="product_name">Nama Produk</string>
+    <string name="product_price">Harga</string>
+    <string name="product_category">Kategori</string>
+    <string name="product_description">Deskripsi</string>
+    <string name="product_status">Status Produk</string>
+    <string name="available">Tersedia</string>
+    <string name="out_of_stock">Habis</string>
+    <string name="upload_photo">Upload Foto Produk</string>
+    <string name="no_photo">Belum Ada Foto Produk</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete_confirm_title">Hapus Menu</string>
+    <string name="delete_confirm_msg">Apakah Anda yakin ingin menghapus menu ini?</string>
+    <string name="yes_delete">Ya, Hapus</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+
+    <!-- Receipt Additional Strings -->
+    <string name="cashier">Kasir</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Pajak</string>
+    <string name="total_bill">Total Tagihan</string>
+    <string name="amount_paid">Uang Dibayar</string>
+    <string name="change">Kembalian</string>
+    <string name="insufficient_amount">Uang yang dibayarkan kurang</string>
+    <string name="exact_amount">Uang pas</string>
+
+    <!-- Transaction Screen Strings -->
+    <string name="add_product">Tambah Produk</string>
+</resources>
