@@ -74,7 +74,8 @@ CafePOS Mobile dikembangkan untuk membantu operasional kafe menjadi lebih **cepa
 
 Dashboard admin digunakan untuk memantau statistik penjualan, total transaksi, profit, average order, grafik penjualan harian, serta akses cepat ke menu manajemen dan laporan.
 
-<AsyncImage query="CafePOS Mobile Android dashboard admin dark green analytics sales chart quick menu bottom navigation" aspectRatio="9:16" maxWidth={260} maxHeight={520}/>
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/38d4bc72-6e5c-4ba6-9e1f-e3715db930c1" />
+
 
 ---
 
@@ -82,7 +83,8 @@ Dashboard admin digunakan untuk memantau statistik penjualan, total transaksi, p
 
 Dashboard kasir dirancang untuk mempercepat proses transaksi, melihat pesanan aktif, mengakses riwayat transaksi, dan membuat transaksi baru dengan antarmuka yang sederhana dan responsif.
 
-<AsyncImage query="CafePOS Mobile Android cashier dashboard dark green POS transaction new order history profile bottom navigation" aspectRatio="9:16" maxWidth={260} maxHeight={520}/>
+
+<img width="458" height="1600" alt="image" src="https://github.com/user-attachments/assets/0f595254-184b-4542-98df-36df8676f90a" />
 
 ---
 
@@ -140,16 +142,36 @@ cd -CafePOS-Android-"/>
 
 <Badge label="Active Development" color="success"/>
 
-### Roadmap
+## 🗺️ Roadmap Pengembangan
 
-* <Checkbox label="Sistem kasir & dashboard" defaultChecked/>
-* <Checkbox label="Room Database offline" defaultChecked/>
-* <Checkbox label="Riwayat transaksi" defaultChecked/>
-* <Checkbox label="Laporan penjualan" defaultChecked/>
-* <Checkbox label="Manajemen stok bahan baku" defaultChecked/>
-* <Checkbox label="Export PDF laporan"/>
-* <Checkbox label="Sinkronisasi cloud"/>
-* <Checkbox label="Integrasi printer thermal Bluetooth"/>
+Proyek ini sedang dalam pengembangan aktif. Berikut adalah rencana tahapan pengembangannya:
+
+### Fase 1: Fondasi & Fitur Inti (Selesai) ✅
+- [x] Setup Arsitektur MVVM & Clean Architecture.
+- [x] Integrasi Database Lokal (Room DB) untuk persistensi data.
+- [x] Implementasi Jetpack Compose untuk UI yang responsif.
+- [x] Fitur Checkout & Logika Invoice unik (`INV-YYYYMMDD-XXXX`).
+- [x] Manajemen status pesanan (Aktif & Selesai).
+- [x] Pencatatan detail pelanggan (Nama, Nomor Meja, Catatan).
+
+### Fase 2: Manajemen Produk & Stok (Sedang Berjalan) 🏗️
+- [ ] Modul Manajemen Menu (Tambah, Edit, Hapus Produk).
+- [ ] Fitur Kategori Produk (Makanan, Minuman, Snack).
+- [ ] Manajemen Stok/Inventori sederhana.
+- [ ] Fitur Pencarian & Filter Produk di halaman Kasir.
+
+### Fase 3: Laporan & Analitik 📊
+- [ ] Ringkasan penjualan harian, mingguan, dan bulanan.
+- [ ] Grafik performa penjualan menggunakan library charting.
+- [ ] Ekspor riwayat transaksi ke format CSV atau Excel.
+- [ ] Fitur kalkulasi laba bersih (berdasarkan `totalCostPrice`).
+
+### Fase 4: Integrasi & Pengalaman Pengguna 🚀
+- [ ] Integrasi Cetak Struk via Bluetooth Thermal Printer.
+- [ ] Fitur Scan Barcode/QR Code untuk input produk.
+- [ ] Dukungan Mode Gelap (Dark Mode).
+- [ ] Cloud Sync (Firebase/Supabase) untuk backup data antar perangkat.
+- [ ] Support untuk Multi-user (Owner & Kasir) dengan hak akses berbeda.
 
 ---
 
