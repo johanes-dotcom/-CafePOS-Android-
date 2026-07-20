@@ -96,6 +96,7 @@ Dashboard kasir dirancang untuk mempercepat proses transaksi, melihat pesanan ak
 
 > Simpan screenshot aplikasi ke folder `screenshots/` agar tampil otomatis di README GitHub.
 
+
 ---
 
 ## 🛠️ Tech Stack
